@@ -1,0 +1,43 @@
+.left-aside{
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  background-color: var(--blue);
+  grid-row: left-aside;
+}
+
+.logo-container{
+  display: flex;
+  padding-left: 1.25rem;
+  padding-top: 0.9375rem;
+  gap: 0.625rem;
+}
+
+.main-title{
+  padding-top: 5px;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.left-aside nav{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.75rem;
+  gap: 1.7rem;
+}
+
+.first-left-aside-nav div a, .second-left-aside-nav div a{
+  text-decoration: none;
+  color: #FCFDFE;
+  font-size: 1.4375rem;
+}
+
+.left-aside nav div{
+  display: flex;
+  align-items: end;
+  gap: 1.375rem;
+}
+
+.left-aside-image{
+  width: 1.875rem;
+}

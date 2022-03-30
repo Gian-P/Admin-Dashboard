@@ -1,0 +1,103 @@
+.header{
+  background-color: var(--white);
+  grid-column: header;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+.top-header-container{
+  display: flex;
+  gap: 100px;
+}
+
+.header-top-right-side{
+  display: flex;
+  gap: 15px;
+}
+
+.header-top-left-side{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-top-left-side span{
+  color: #202020;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-top-right-side img, .header-top-left-side img{
+  height: 50px;
+}
+
+.header-top-right-side input{
+  height: 50px;
+  width: 900px;
+  background-color: var(--Gray);
+  border: none;
+  border-radius: 50px;
+}
+
+.toy-image{
+  width: 50px;
+  height: 50px;
+  background-image: url(/design/Sherlock\ Toy\ Face\ NFT.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.second-toy-image{
+  width: 75px;
+  height: 75px;
+  background-image: url(/design/Sherlock\ Toy\ Face\ NFT.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.bottom-header-container{
+  display: flex;
+  padding-top: 30px;
+  padding-left: 15px;
+  justify-content: space-between;
+}
+
+.header-bottom-right-side{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.regards{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.regards div:nth-child(1){
+  color: #202020;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.regards div:nth-child(2){
+  color: #202020;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-bottom-left-side{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-right: 190px;
+}
+
+.header-bottom-left-side div{
+  background-color: var(--blue);
+  border: none;
+  padding: 10px 35px;
+  border-radius: 25px;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+}
