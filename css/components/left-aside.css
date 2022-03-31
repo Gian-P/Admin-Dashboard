@@ -39,5 +39,6 @@
 }
 
 .left-aside-image{
-  width: 1.875rem;
+  max-width: 1.875rem;
 }
+

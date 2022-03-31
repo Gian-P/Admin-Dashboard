@@ -1,5 +1,5 @@
 .trending{
 
-  background-color: brown;
+  background-color: var(--Gray);
   grid-row: trending;
 }

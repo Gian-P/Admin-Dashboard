@@ -1,4 +1,7 @@
 .right-aside{
-  background-color: blue;
+  background-color: var(--Gray);
   grid-row: aside;
+  box-shadow: 1px 73px 5px -67px rgba(208,214,221,0.74) inset;
+  -webkit-box-shadow: 1px 73px 5px -67px rgba(208,214,221,0.74) inset;
+  -moz-box-shadow: 1px 73px 5px -67px rgba(208,214,221,0.74) inset;
 }

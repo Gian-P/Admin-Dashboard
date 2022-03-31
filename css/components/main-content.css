@@ -1,5 +1,70 @@
 .main{
-  background-color: burlywood;
+  background-color: var(--Gray);
   grid-column: main;
   grid-row: main;
+  box-shadow: 1px 73px 5px -67px rgba(208,214,221,0.74) inset;
+  -webkit-box-shadow: 1px 73px 5px -67px rgba(208,214,221,0.74) inset;
+  -moz-box-shadow: 1px 73px 5px -67px rgba(208,214,221,0.74) inset;
+  padding: 0px 20px;
+  padding-top: 20px;
+}
+
+.main-container{
+  display: grid;
+  grid-template-columns: 384px 384px 384px;
+  grid-template-rows: 250px 250px ;
+  gap: 20px;
+}
+
+.main-container article{
+  background-color: var(--white);
+  border-left: 8px solid var(--border-articles);
+  border-radius: 8px 8px 8px 8px;
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.main-container article div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main-container article div p{
+  color: #78716c;
+  width: 32ch;
+}
+
+.main h2{
+  padding-bottom: 10px;
+}
+
+.links{
+  display: flex;
+  gap: 25px;
+  justify-content: end;
+  padding-right: 20px;
+}
+.links div:nth-child(1){
+  height: 30px;
+  width: 30px;
+  background-image: url(/design/star.png);
+  background-size: cover;
+}
+
+.links div:nth-child(2){
+  height: 30px;
+  width: 30px;
+  background-image: url(/design/eye-plus-outline.png);
+  background-size: cover;
+}
+
+.links div:nth-child(3){
+  height: 30px;
+  width: 30px;
+  background-image: url(/design/share-variant-outline.png);
+  background-size: cover;
 }
