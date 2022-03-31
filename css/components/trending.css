@@ -1,5 +1,71 @@
 .trending{
-
   background-color: var(--Gray);
   grid-row: trending;
+}
+
+.trending-container{
+  background-color: white;
+  min-height: 18.43rem;
+  margin-right: 2.5rem;
+  border-radius: 8px 8px 8px 8px;
+  padding-left: 0.9375rem;
+  padding-top: 0.9375rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.flex-container{
+  display: flex;
+  gap: 0.9375rem;
+}
+.trending h2{
+  padding-bottom: 5px;
+}
+.trending-image1{
+  background-image: url(/design/Sherlock\ Toy\ Face\ NFT.jpg);
+  background-size: cover;
+  min-width: 3.125rem;
+  min-height: 3.125rem;
+  border-radius: 50%;
+}
+
+.trending-image2{
+  background-image: url(/design/Trending-image-2.png);
+  background-size: cover;
+  min-width: 3.125rem;
+  min-height: 3.125rem;
+  border-radius: 50%;
+}
+
+.trending-image3{
+  background-image: url(/design/Trending-image-3.jpg);
+  background-size: cover;
+  min-width: 3.125rem;
+  min-height: 3.125rem;
+  border-radius: 50%;
+}
+
+.trending-image4{
+  background-image: url(/design/Trending-image-4.jpg);
+  background-size: cover;
+  min-width: 3.125rem;
+  min-height: 3.125rem;
+  border-radius: 50%;
+}
+
+.nickname{
+  color: var(--black);
+  font-weight: 600;
+}
+
+.phrase{
+  color: #78716c;
+}
+
+.perfil{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
 }

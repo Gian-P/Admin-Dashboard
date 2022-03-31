@@ -4,4 +4,50 @@
   box-shadow: 1px 73px 5px -67px rgba(208,214,221,0.74) inset;
   -webkit-box-shadow: 1px 73px 5px -67px rgba(208,214,221,0.74) inset;
   -moz-box-shadow: 1px 73px 5px -67px rgba(208,214,221,0.74) inset;
+  padding-top: 1.5rem;
 }
+
+.right-aside h2{
+  padding-bottom: 0.3rem;
+}
+
+.announcement-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  background-color: var(--white);
+  min-width: 12.5rem;
+  min-height: 22.1875rem;
+  border-radius: 8px 8px 8px 8px;
+  margin-right: 2.5rem;
+  padding-left: 1.875rem;
+  padding-top: 1.5625rem;
+  padding-right: 1.875rem;
+}
+
+.announcement-container article:nth-child(1) div p{
+  font-size: 0.875rem;
+  color: #78716c;
+  padding-bottom: 1.25rem;
+}
+
+.announcement-container article:nth-child(2) div p{
+  font-size: 0.875rem;
+  color: #78716c;
+  padding-bottom: 1.25rem;
+}
+
+.announcement-container article:nth-child(3) div p{
+  font-size: 0.875rem;
+  color: #78716c;
+}
+
+.announcement-titles{
+  font-size: 1rem;
+}
+
+.announcement-div{
+  border-bottom: 1px solid var(--Gray);
+}
+
+

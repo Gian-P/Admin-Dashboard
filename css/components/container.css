@@ -1,8 +1,8 @@
 .container{
   display: grid;
-  grid-template-columns: 17vw 29vw 40vw 14vw;
+  grid-template-columns: 17vw 29vw 35.3vw 18.7vw;
   grid-template-rows: repeat(4, 25vh);
-  grid-template-rows: 20vh 27vh 27vh 26vh ;
+  grid-template-rows: 20vh 27vh 18vh 35vh ;
   grid-template-areas: "left-aside header header header"
                        "left-aside main main aside"
                        "left-aside main main aside"
