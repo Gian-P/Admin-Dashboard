@@ -43,6 +43,11 @@ With this challenge I was able to practice the following skills:
 
 4-) Css Custom properties.
 
+## Github pages
+
+https://gian-p.github.io/Admin-Dashboard/
+
 ## Author
 
 - Github repository - [Gian-P](https://github.com/Gian-P)
+
